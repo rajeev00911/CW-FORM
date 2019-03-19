@@ -62,6 +62,7 @@ const fetchFormTemplateList = totalListOfFormTemplate => {
     data.push(_id, form_Name, form_Description, updated_By, date_Created);
     formTemplateList.dataRows.push(data);
   });
+  console.log("Hello");
 
   return formTemplateList;
 };
